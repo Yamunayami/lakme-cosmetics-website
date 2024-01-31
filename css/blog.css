@@ -1,0 +1,54 @@
+* {
+     box-sizing: border-box;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing: 2px;
+}
+
+ img {
+     width: 100%;
+ }
+
+ h1 {
+     text-align: center;
+     color: black;
+     margin-top: -16%;
+     font-weight: 100;
+     letter-spacing: .2em;
+ }
+
+
+ .text {
+     font-size: 24px;
+     letter-spacing: 0.1rem;
+     text-align: center;
+ }
+
+ #trends {
+     display: grid;
+     grid-gap: 2%;
+     grid-template-columns: 29% 29% 29%;
+     width: 100%;
+     margin-left: 4%;
+     margin-top: 3%;
+ }
+
+ .image4 {
+     width: 80%;
+     height: 52%;
+ }
+
+ .hover {
+     margin-top: 1%;
+ }
+
+ button {
+     width: 40%;
+     height: 7%;
+ }
+
+ .image4:hover {
+     transform-origin: 15% 15%;
+     transition: transform 5s, filter 3s ease-in-out;
+     transform: scale(1.05);
+ }
+
